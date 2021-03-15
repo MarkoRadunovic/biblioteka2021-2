@@ -4,8 +4,17 @@ import java.util.LinkedList;
 
 import biblioteka.interfejs.BibliotekaInterface;
 
+/**
+ * Ova klasa implementira iterfejs BibliotekaInterface i predstavlja implementaciju preko liste.
+ * 
+ * @author Bojan Tomic
+ *
+ */
 public class Biblioteka implements BibliotekaInterface {
 
+	/**
+	 * Lista sa svim knjigama u biblioteci.
+	 */
 	private LinkedList<Knjiga> knjige = new LinkedList<Knjiga>();
 	
 	@Override
